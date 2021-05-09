@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head><title>FRNG LANDING PAGE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="frng.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  font-size: 15px;
+  background: #f1f1f1;
+}
+/* Style the heading */
+ h1 {
+  font-size: 30px;
+}
+
+/* Style the topnavigation bar */
+.topnav {margin-top:0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* hide the hamburger link */
+.topnav a .con {
+  display:none;
+ }
+
+/* image */
+
+img {
+  width:600px;
+  height:200px;
+  nargin:5px;
+  
+}
+/* style the label and input */
+
+label,input {
+  display:block;
+  }
+
+/* style the landpage content */
+.column div {
+  float:left;
+padding: 20px;
+text-align:center;
+}
+
+/* style the landpage content */
+.column div span{
+ color:blue;
+ font-weight:bold;
+  
+
+}
+/* make list without bullet */
+ul{list-style-type:none;
+  }
+
+li{line-height:200%;
+  font-weight:bold;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a,.column div {
+    float: none;
+    width: 100%;
+  }
+#topnav a{display:none;}
+,topnav a,icon{display:block;}
+}
+</style>
+<script>
+function displayIcon(){
+var x= document.getElementById("topnav");
+if(x.style.dispay==block){x,style,dispay==none;}
+else{x.style.dispay==block;}
+
+}
+
+</script>
+</head>
+<body>
+
+<div class="topnav">
+<div id="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+<a href="javaxript:void(0);" onclick="dispayIcon()" class="icon"><i class="fa fa-bars"></a>
+</div>
+<div class="row">
+ <div class="column">
+<div>
+<h1>YOUR EDUCATIONAL PROGRESS MATTERS TO US</h1>
+<img src="frng.jpeg" alt="kanding page image">
+<ul>
+<li>WHAT IS YOUR INTEREST?</li>
+<li>FRNG WILL TAKE CARE OF IT</li>
+<li>WE WILL GET YOU TRAINED</li>
+<li>OUR WORK SPEAKS VOLUME</li>
+<li>MANY HAVE BEEN TRAIBED BY US</li>
+<li>CONDUXIVE LEARNING ENVIRONMENT</li>
+<li>QUALIFIED TRAINERS ON GROUND</li></ul>
+</div>
+<div><span>Get into the train</br>
+We want to speak to you now!</span>
+<form action="" method ="post">
+<p>Just Fill The Form</p>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+<label for="email">Email:</label>
+<input type="text" id="email" name="email">
+<label for="phone">Pone Number:</label>
+<input type="text" id="phone" name="phone">
+<input type="submit" value="SUBMIT">
+</form>
+</div>
+</div>
+</div>
+<div class="footer">
+<h2>&copy; copyright  FRNG limited</h2>
+</div>
+</body>
+</html>
