@@ -14,7 +14,7 @@ body {
   font-size: 30px;
 }
 
-/* Style the topnavigation bar */
+/* Style the top navigation bar */
 .topnav {margin-top:0;
   overflow: hidden;
   background-color: #333;
@@ -37,7 +37,7 @@ body {
 }
 
 /* hide the hamburger link */
-.topnav a .con {
+.topnav a.icon {
   display:none;
  }
 
@@ -45,7 +45,7 @@ body {
 
 img {
   width:600px;
-  height:200px;
+  height:100px;
   nargin:5px;
   
 }
@@ -99,7 +99,7 @@ li{line-height:200%;
     width: 100%;
   }
 #topnav a{display:none;}
-,topnav a,icon{display:block;}
+,topnav a.icon{display:block;}
 }
 
 
