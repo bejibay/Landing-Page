@@ -1,8 +1,9 @@
 # Landing Page For Frontend
-## Technogies used
-... JavaScript, HTML and CSS
-### Landing Page Design
+## Technogies 
+... 
+JavaScript, HTML and CSS
+
+### Objectives
 ```
-A simple design to illustrate 
-how to design an information 
-landing page for an organisation.
+To Illustrate how to build a frontend
+application with JavaScript, HTML and CSS 
