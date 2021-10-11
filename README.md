@@ -1,6 +1,7 @@
 # Landing Page For Frontend
-## Technogies 
-... 
+### Technogies
+...
+
 JavaScript, HTML and CSS
 
 ### Objectives
