@@ -59,10 +59,7 @@ img {
 label,input,option{
   display:block;
   }
-/* style the landpage sections */
-.col-12 {width:100%;}
- .col-6{width:50%;
- }
+
 /* make list without bullet */
 ul{list-style-type:none;
   }
@@ -95,6 +92,9 @@ li{line-height:200%;
   }
 /*hide the hamburger links*/
 .topnav a.icon{display:none;}
+/* style the landpage sections */
+.col-12 {width:100%;}
+ .col-6 {width:50%;}
 }
 
 
