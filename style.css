@@ -68,7 +68,7 @@ li{line-height:200%;
   }
 
 /* Clear floats after the columns */
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
