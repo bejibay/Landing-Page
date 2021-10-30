@@ -71,10 +71,12 @@ li{line-height:200%;
 /* Clear floats after the columns */
 .row::after {
   content: "";
-  display: table;
   clear: both;
+  display: table;
+  
 }
-
+[class*="col-"]{
+width:100%;}
 /* Footer */
 .footer {
   padding: 20px;
