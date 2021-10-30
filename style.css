@@ -84,7 +84,7 @@ li{line-height:200%;
 
 /* Responsive layout - when the screen is more than 600px wide*/
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 500px) {
 /*make the navigation links horizontal */
   .topnav a {
     float: left;   
