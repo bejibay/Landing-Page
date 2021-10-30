@@ -2,12 +2,11 @@
 * {
   box-sizing: border-box;
 }
-#container{margin:0 auto;position:relative;}
-body {
-  font-family: Arial;
-  padding: 10px;
-  font-size: 15px;
-  background: #f1f1f1;
+#container{margin:0 auto;
+font-family: Arial;
+padding: 10px;
+font-size: 15px;
+background: #f1f1f1;
 }
 /* Style the heading */
  h1 {
@@ -18,10 +17,11 @@ body {
 .topnav {margin-top:0;
   overflow: hidden;
   background-color: #333;
+  position:relative;
 }
 
 /* Style the topnav links */
-.topnav #mytopnav a{
+.topnav a{
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -36,14 +36,13 @@ body {
 }
 
 /* hide the links inside the menu*/
-.topnav #mytopnav a {
+.topnav #mytopnav {
   display:none;
  }
 
 /*display the hamburger menu*/
 .topnav a.icon {display:block;
-position:absolute;
-top:0;right:0;
+float:right;
 }
 
 /* image */
