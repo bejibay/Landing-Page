@@ -94,7 +94,8 @@ li{line-height:200%;
     float: left;   
   }
 /*hide the hamburger links*/
-,topnav a.icon{display:none;
+.topnav a.icon{display:none;}
+}
 
 
 
