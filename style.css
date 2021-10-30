@@ -41,7 +41,10 @@ body {
  }
 
 /*display the hamburger menu*/
-.topnav a.icon {display:block;}
+.topnav a.icon {display:block;
+position:absolute;
+top:0;right:0;
+}
 
 /* image */
 
