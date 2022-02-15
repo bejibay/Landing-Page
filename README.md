@@ -1,7 +1,4 @@
-# Landing Page 
-### Technogies
-* JavaScript, HTML and CSS
-
-### Objectives
-* To Illustrate how to build User Interface
-application with JavaScript, HTML and CSS 
+# HTMLinterface
+* HTMLinterface is built to illustrate the use
+of HTML, CSS,and JavaScript in building interface
+for frontend applications
