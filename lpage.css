@@ -59,6 +59,7 @@ img {
 
 select,label,input,option{
   display:block;
+  width: 300px;
   }
 
 /* make list without bullet */
