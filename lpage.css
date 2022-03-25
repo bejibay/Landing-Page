@@ -43,11 +43,10 @@ background: #f1f1f1;
 
 
 /*display the hamburger menu*/
-.topnav a.icon {display:block;
+.topnav a.icon {
 position: absolute;
 right: 0;
 top: 0;
-
 }
 
 
