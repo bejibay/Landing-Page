@@ -44,7 +44,7 @@ background: #f1f1f1;
 
 /*display the hamburger menu*/
 .topnav a.icon {display:block;
-float:right;}
+float:left;}
 
 
 /* image */
@@ -57,7 +57,7 @@ img {
 }
 /* style the label and input */
 
-label,input,option{
+select,label,input,option{
   display:block;
   }
 
