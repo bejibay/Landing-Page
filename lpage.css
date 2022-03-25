@@ -44,7 +44,11 @@ background: #f1f1f1;
 
 /*display the hamburger menu*/
 .topnav a.icon {display:block;
-float:left;}
+position: absolute;
+right: 0;
+top: 0;
+
+}
 
 
 /* image */
@@ -59,7 +63,7 @@ img {
 
 select,label,input,option{
   display:block;
-  width: 300px;
+  width: 250px;
   }
 
 /* make list without bullet */
