@@ -61,7 +61,7 @@ img {
 }
 /* style the label and input */
 
-select,label,input,option{
+label,input,option{
   display:block;
   width: 250px;
   }
