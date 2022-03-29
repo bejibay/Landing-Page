@@ -42,7 +42,7 @@ background: #f1f1f1;
 }
 
 
-/*display the hamburger menu*/
+/*style the hamburger mwnu*/
 .topnav a.icon {
 display: block;
 position: absolute;
@@ -51,7 +51,7 @@ top: 0;
 }
 
 
-/* image */
+/* style the image */
 
 img {
   width:100%;
@@ -93,7 +93,7 @@ width:100%;}
 
 /* Responsive layout - when the screen is more than 600px wide*/
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:768px) {
 /*make the navigation links horizontal */
   .topnav a {
     float: left;   
