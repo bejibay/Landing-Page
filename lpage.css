@@ -21,7 +21,7 @@ background: #f1f1f1;
 }
 /* hide the links inside the menu*/
 .topnav #mytopnav {
-  display:none;
+  
  }
 
 /* Style the topnav links */
@@ -60,7 +60,7 @@ img {
 }
 /* style the label and input */
 
-label,input,option{
+label,input,select,option{
   display:block;
   width: 250px;
   }
