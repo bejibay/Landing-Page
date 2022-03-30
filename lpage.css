@@ -32,7 +32,7 @@ padding: 15px;
   position:relative;
 }
 /* hide the links inside the menu*/
-.topnav #mytopnav{
+.topnav #myTopnav{
  display: none; 
  }
 
@@ -106,8 +106,8 @@ width:100%;}
 /*hide the hamburger links*/
 .topnav a.icon{display:none;}
 /* style the page sections */
-.col-12 {width:100%;}
- .col-6 {width:50%;}
+.col-12 {width: 100%;}
+ .col-6 {width: 50%;}
 }
 
 
