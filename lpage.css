@@ -13,6 +13,18 @@ background: #f1f1f1;
   font-size: 30px;
 }
 
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  clear: both;
+  display: table; 
+}
+
+[class*="col-"]{
+float: left;
+padding: 15px;
+}
+
 /* Style the top navigation bar */
 .topnav {margin-top:0;
   overflow: hidden;
@@ -73,13 +85,7 @@ li{line-height:200%;
   font-weight:bold;
   }
 
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  
-}
+
 [class*="col-"]{
 width:100%;}
 /* Footer */
