@@ -56,7 +56,6 @@ padding: 15px;
 
 /*style the hamburger mwnu*/
 .topnav a.icon {
-color : black;
 display: block;
 position: absolute;
 right: 0;
@@ -101,6 +100,7 @@ width:100%;}
 @media screen and (min-width:600px) {
 /*make the navigation links horizontal */
   .topnav a {
+    display: block;
     float: left;   
   }
 /*hide the hamburger links*/
