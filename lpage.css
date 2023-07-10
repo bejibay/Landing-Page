@@ -21,6 +21,7 @@ background: #f1f1f1;
 }
 
 [class*="col-"]{
+width: 100%;
 float: left;
 padding: 15px;
 }
@@ -32,7 +33,7 @@ padding: 15px;
   position:relative;
 }
 /* hide the links inside the menu*/
-.topnav #myTopnav{
+ #myTopnav{
  display: none; 
  }
 
@@ -83,9 +84,6 @@ li{line-height:200%;
   font-weight:bold;
   }
 
-
-[class*="col-"]{
-width:100%;}
 /* Footer */
 .footer {
   padding: 20px;
