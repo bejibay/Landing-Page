@@ -103,6 +103,10 @@ li{line-height:200%;
   float: left;
   display: block;
   }
+
+  /* image max width 600px */
+
+img { max-width: 600px;}
   
 /*hide the hamburger links*/
 .topnav a.icon{display:none;}
