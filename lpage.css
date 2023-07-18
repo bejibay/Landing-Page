@@ -96,10 +96,10 @@ li{line-height:200%;
 
 @media screen and (min-width:600px) {
 /*make the navigation links horizontal */
-  .topnav a {
-    display: block;
-    float: left;   
-  }
+ #myTopnav a {
+ display: block; 
+ float: left;   
+ }
 /*hide the hamburger links*/
 .topnav a.icon{display:none;}
 /* style the page sections */
