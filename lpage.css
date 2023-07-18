@@ -99,7 +99,7 @@ li{line-height:200%;
  #myTopnav {
  display: block; 
  }
-  topnav a {
+  .topnav a {
   float: left;
   display: block;
   }
