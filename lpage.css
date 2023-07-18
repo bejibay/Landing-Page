@@ -100,8 +100,8 @@ li{line-height:200%;
  display: block; 
  }
   topnav a {
-  display: block;
   float: left;
+  display: block;
   }
   
 /*hide the hamburger links*/
